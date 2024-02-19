@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = "~/Views/Shared/AdminLTE/_Layout.cshtml";
+}
+
+
+<button type="button" class="btn btn-danger text-white mt-3" data-toggle="modal" data-target="#exampleModal">Track Item</button>
+<form method="post">
+    <div id="exampleModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title w-100 text-center" style="font-weight: bold;">Track Item</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <h5 style="text-align: center; margin-top: 10px;">Covenient delivery to your doorstep</h5>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Input your waybill number" style="border-radius: 5px; text-align: center; height: 50px;" />
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-warning form-control" value="Track" style="border-radius: 5px; text-align: center; height: 50px; font-size: 20px; font-weight:bold;">Track</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<div class="container-fluid m-1">
+    <div class="row text-center">
+        <div class="col-md-3 bg-green m-3 pt-2 pb-2">
+            <h5>Bike Deliveries</h5><i class='fas fa-motorcycle' style='font-size:86px; color:white;'></i>
+        </div>
+        <div class="col-md-3 bg-secondary m-3 pt-2 pb-2">
+            <h5>Van Deliveries</h5><i class='fas fa-shuttle-van' style='font-size:86px; color:white;'></i>
+        </div>
+        <div class="col-md-3 bg-dark m-3 pt-2 pb-2">
+            <h5>Truck Deliveries</h5><i class='fas fa-truck' style='font-size:86px; color:white;'></i>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8">
+            <h5 style="font-weight: bold">Most recent deliveries</h5>
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5 style="font-weight: bold">Complete your account setup</h5>
+            <div class="col-md-12" id="accountSetup">
+                <a asp-action="" asp-controller="">
+                    <h3 class="pt-4">Complete your account setup</h3><p class="text-secondary">Kindly fill in your missing information.</p>
+                </a>
+            </div>
+            <br />
+            <img src="~/Images/android.png">
+            <br />
+            <br />
+            <img src="~/Images/iOs.png" />
+        </div>
+    </div>
+</div>

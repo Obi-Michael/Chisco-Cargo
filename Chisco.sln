@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{FA360FE9-E486-48F1-8A0B-A57EB9F082F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E442A245-3BD1-41DB-A646-9FCAF0CFEF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{408EE47F-49D3-484B-A685-5E73331503CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{5BCBD7F4-0578-4EC2-BCF2-31968978F7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B5CA0576-E356-4088-871C-3BD61AC13D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chisco.API", "API\Chisco.API\Chisco.API.csproj", "{2257E091-4736-4CE7-918A-950E49271383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chisco.Web", "Frontend\Chisco.Web\Chisco.Web.csproj", "{099FF584-793F-44D7-A84F-CC6D8A83418B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{408EE47F-49D3-484B-A685-5E73331503CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408EE47F-49D3-484B-A685-5E73331503CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408EE47F-49D3-484B-A685-5E73331503CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408EE47F-49D3-484B-A685-5E73331503CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCBD7F4-0578-4EC2-BCF2-31968978F7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCBD7F4-0578-4EC2-BCF2-31968978F7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCBD7F4-0578-4EC2-BCF2-31968978F7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCBD7F4-0578-4EC2-BCF2-31968978F7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CA0576-E356-4088-871C-3BD61AC13D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CA0576-E356-4088-871C-3BD61AC13D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CA0576-E356-4088-871C-3BD61AC13D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CA0576-E356-4088-871C-3BD61AC13D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2257E091-4736-4CE7-918A-950E49271383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2257E091-4736-4CE7-918A-950E49271383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2257E091-4736-4CE7-918A-950E49271383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2257E091-4736-4CE7-918A-950E49271383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099FF584-793F-44D7-A84F-CC6D8A83418B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099FF584-793F-44D7-A84F-CC6D8A83418B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099FF584-793F-44D7-A84F-CC6D8A83418B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099FF584-793F-44D7-A84F-CC6D8A83418B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2257E091-4736-4CE7-918A-950E49271383} = {E442A245-3BD1-41DB-A646-9FCAF0CFEF09}
+		{099FF584-793F-44D7-A84F-CC6D8A83418B} = {FA360FE9-E486-48F1-8A0B-A57EB9F082F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B993D870-1057-4950-84D8-37575CF80BB0}
+	EndGlobalSection
+EndGlobal
